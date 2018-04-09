@@ -22,7 +22,7 @@ public class Calculator {
         }
         else
         {
-            System.out.println("");
+            System.out.println("Men ajjabajja då!");
         }
     }
 
