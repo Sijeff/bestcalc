@@ -6,7 +6,7 @@ public class Calculator {
         return x + y;
     }
     //methods go here!
-    
+
 
 
 
@@ -35,7 +35,7 @@ public class Calculator {
     }
 
 
-    public int divide(int x, int y) {
+    public double divide(double x, double y) {
         return x / y;
     }
 
