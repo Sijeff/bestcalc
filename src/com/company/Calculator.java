@@ -26,4 +26,9 @@ public class Calculator {
         double res = Math.sqrt(num);
         return res;
     }
+
+    public double square(double x) {
+        return x * x;
+    }
+    
 }
