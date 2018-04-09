@@ -7,6 +7,7 @@ public class Calculator {
     }
     //methods go here!
 
+
     public double multiply(double x, double y) {
         return x * y;
     }
@@ -17,8 +18,13 @@ public class Calculator {
 
 
 
-    public int subtraction(int x, int y){
-        return x-y;
+    public int subtraction(int x, int y) {
+        return x - y;
+    }
+
+
+    public int divide(int x, int y) {
+        return x/y;
 
     }
 }
