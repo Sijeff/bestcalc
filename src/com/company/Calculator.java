@@ -7,6 +7,8 @@ public class Calculator {
     }
 
 
+
+
     public double multiply(double x, double y) {
         return x * y;
     }
@@ -32,7 +34,7 @@ public class Calculator {
     }
 
 
-    public int divide(int x, int y) {
+    public double divide(double x, double y) {
         return x / y;
     }
 
@@ -50,4 +52,5 @@ public class Calculator {
         return x * x;
     }
     
+
 }
