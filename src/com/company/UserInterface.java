@@ -3,7 +3,27 @@ package com.company;
 import java.util.Scanner;
 
 public class UserInterface {
-    private void evaluateOperation(String operation, double x, double y) {
+    private void evaluateOperation(Calculator calc, String operation, double x, double y) {
+
+        operation = operation.toLowerCase();
+
+        switch(operation) {
+            case "add":
+                calc.add(x, y);
+            case "subtract":
+                calc.subtraction(x, y);
+            case "divide":
+                calc.divide(x, y);
+            case "multiply":
+                calc.multiply(x, y);
+            case "square":
+                calc.square(x);
+            case "root":
+                calc.sqrt(x);
+            default:
+                System.out.println("Not a valid operation. Enter one of: ");
+                System.out.println("Add, Subtract, Divide, Multiply, Square, Root");
+        }
 
     }
 
@@ -12,6 +32,7 @@ public class UserInterface {
         scan.nextLine();
         return output;
     }
+
     private void getInput(Calculator calc) {
         double x, y;
         String operation = "";

@@ -2,7 +2,7 @@ package com.company;
 
 public class Calculator {
 
-    private double add(double x, double y) {
+    public double add(double x, double y) {
         return x + y;
     }
 
@@ -30,7 +30,7 @@ public class Calculator {
 
 
 
-    public int subtraction(int x, int y) {
+    public double subtraction(double x, double y) {
         return x - y;
     }
 
