@@ -1,5 +1,7 @@
 package com.company;
 
 public class Calculator {
-    //methods go here!
+    private double add(double first, double second){
+        return first + second;
+    }
 }
