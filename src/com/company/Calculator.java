@@ -27,15 +27,15 @@ public class Calculator {
     }
 
 
-
-
-
     public double subtraction(double x, double y) {
         return x - y;
     }
 
 
-    public double divide(double x, double y) {
+    public double divide(double x, double y) throws IllegalArgumentException{
+        if( y == 0 ){
+            throw new IllegalArgumentException("Can not divide by zero");
+        }
         return x / y;
     }
 
