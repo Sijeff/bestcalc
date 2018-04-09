@@ -13,6 +13,21 @@ public class Calculator {
     }
 
 
+
+    public void evenNumber(int x) {
+        if (x%2 == 0) {
+            System.out.println("Jajjamen!");
+        }
+        else
+        {
+            System.out.println("");
+        }
+    }
+
+
+
+
+
     public int subtraction(int x, int y) {
         return x - y;
     }
