@@ -43,7 +43,7 @@ public class UserInterface {
         y = scanDouble(scan);
         System.out.println("What do you want to do?");
         operation = scan.nextLine();
-        evaluateOperation(operation, x, y);
+        evaluateOperation(calc, operation, x, y);
     }
 
     public void run(UserInterface ui) {
