@@ -6,7 +6,6 @@ public class UserInterface {
     private void evaluateOperation(String operation, double x, double y) {
 
     }
-
     private void getInput(Calculator calc) {
         double x, y;
         String operation = "";
