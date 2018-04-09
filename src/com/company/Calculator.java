@@ -13,18 +13,17 @@ public class Calculator {
     }
 
 
-
-
-
-
-
     public int subtraction(int x, int y) {
         return x - y;
     }
 
 
     public int divide(int x, int y) {
-        return x/y;
+        return x / y;
+    }
 
+    public double sqrt ( double num) throws IllegalArgumentException {
+        double res = Math.sqrt(num);
+        return res;
     }
 }
